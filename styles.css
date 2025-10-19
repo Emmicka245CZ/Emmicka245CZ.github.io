@@ -22,7 +22,8 @@ ul li + li {
 .title {text-align: center; padding: 20pt; }
 .grid-main {
     display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
 }
-.border {width: 250pt;}
+.border {width: 100%;}
+
 
