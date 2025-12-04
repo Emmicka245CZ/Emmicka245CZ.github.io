@@ -1,0 +1,10 @@
+body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(109, 192, 88);}
+
+a {color: aqua;}
+ol {margin-top: px; margin-bottom: 10px;}
+div.container {padding-top: 10px; padding-bottom: 10px;
+    background-color: rgb(40, 40, 40); color: aliceblue;}
+
+.imageflex {display: flex;}
+.imageflexcontent {margin-left: 5px; margin-top: 12px;}
