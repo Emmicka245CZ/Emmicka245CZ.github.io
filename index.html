@@ -1,13 +1,14 @@
 ---
-layout: default
 ---
 
 <ul>
-  {% for page in site.pages %}
-    {% if page.dir != "/" and page.name == "index.md" or page.name == "index.html" %}
-      <li>
-        <a href="{{ page.url }}">{{ page.dir }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
+{% for page in site.pages %}
+  {% if page.name == "index.html" and page.dir != "/" %}
+    <li>
+      <a href="{{ page.url }}">
+        {{ page.dir | remove: "/" }}
+      </a>
+    </li>
+  {% endif %}
+{% endfor %}
 </ul>
