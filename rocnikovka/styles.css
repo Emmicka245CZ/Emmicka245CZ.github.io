@@ -1,0 +1,4 @@
+.title {text-align: left; padding: 20pt; }
+.grid-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
